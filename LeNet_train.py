@@ -52,7 +52,7 @@ datagen = ImageDataGenerator(
 datagen.fit(X_train)                                         
 
 model.fit_generator(datagen.flow(X_train, y_train, batch_size=100), steps_per_epoch=len(X_train)/100, 
-                    epochs=2, validation_data=(X_test, y_test), callbacks=[reduce_lr,log])
+                    epochs=30, validation_data=(X_test, y_test), callbacks=[reduce_lr,log])
 
 score = model.evaluate(X_test, y_test, batch_size=32)
 print('score: ',score)
