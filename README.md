@@ -1,7 +1,9 @@
 # LeNet-Mnist-with-keras
 
-***[Reffernce 1](https://drive.google.com/open?id=1H6hfDKPacrxpqa3XGIi3flVTbuDY8Ano)***
+***[Reffernce 1](https://www.kaggle.com/curiousprogrammer/lenet-5-cnn-with-keras-99-48)***
 
-***[Reffernce 2](https://drive.google.com/open?id=1H6hfDKPacrxpqa3XGIi3flVTbuDY8Ano)***
+***[Document](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)***
+
+<hr></hr>
 
 ![image](https://github.com/LiaoSteve/LeNet-Mnist-with-keras/blob/master/demo.png)
